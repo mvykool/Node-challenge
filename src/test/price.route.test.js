@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../server.js';
+import app from '../app.js';
 
 describe('GET /price/:user_id/:nombre_producto', () => {
     test('responds with JSON for user 1 and special price', async() => {
