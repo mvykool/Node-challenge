@@ -2,7 +2,7 @@ import "dotenv/config.js"
 import express from 'express';
 import cors from 'cors';
 import productRoutes from './routes/product.route.js';
-import userRoutes from './routes/user.route.js';
+import userRoutes from './routes/price.route.js';
 import dbInit from './db/mongo.js'
 
 const app = express();
