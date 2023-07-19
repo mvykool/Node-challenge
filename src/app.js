@@ -11,6 +11,11 @@ app.use(cors());
 app.use(productRoutes);
 app.use(userRoutes);
 
+//default route
+app.get('/', (req, res) => {
+    res.send('Welcome to Node Challenge');
+});
+
 dbInit();
 
 export default app;
